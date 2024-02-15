@@ -67,8 +67,8 @@ body{
     height: 64px;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 5%;
+    height: 5%;
     position: inherit ;
 }
 .card > h2 {
