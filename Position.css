@@ -1,0 +1,52 @@
+.Relative{
+    /* การวางตำแหน่ง element จะขึ้นอยู่กับ document flow */
+    /* แต่จุดที่แตกต่างคือเราสามารถใช้ CSS property สำหรับเลื่อนตำแหน่ง element: top, bottom, left, right 
+    ซึ่ง property เหล่านี้จะไม่มีผลต่อ static */
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+image{
+    width: 100%;
+}
+
+
+
+
+.absolute{
+    position: absolute;
+    left: 40px;
+}
+.image2{
+    width: 100%;
+}
+.live{
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.views{
+    color: black;
+    background-color: beige;
+    font: 20px;
+    padding: 8px 10px;
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+
+}
+.top-header{
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

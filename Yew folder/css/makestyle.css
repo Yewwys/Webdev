@@ -1,0 +1,14 @@
+div{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    border: solid green;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
