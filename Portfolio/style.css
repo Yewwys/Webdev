@@ -126,3 +126,9 @@ a:hover{
 .hamburger-icon span:first-child{
     transform: none;
 }
+
+/* SECTIONS */
+section__pic-container{
+    width: 500px;
+    height: 500px;
+}
